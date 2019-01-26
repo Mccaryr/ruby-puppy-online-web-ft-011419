@@ -10,6 +10,7 @@ class Dog
 
   def self.all
     @@all.each do |dog|
+      puts "test"
        dog.name 
     end
     
